@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EC0D4238-E9EE-4F1C-B010-49709BD4F8EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog.API\Catalog.API.csproj", "{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{961F4EB4-D3B5-4886-9102-F55C571781B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocs", "Utils\BuildingBlocs\BuildingBlocs.csproj", "{E788CD2D-9990-45D2-808C-8663C5BB0B6B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E788CD2D-9990-45D2-808C-8663C5BB0B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E788CD2D-9990-45D2-808C-8663C5BB0B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E788CD2D-9990-45D2-808C-8663C5BB0B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E788CD2D-9990-45D2-808C-8663C5BB0B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0} = {EC0D4238-E9EE-4F1C-B010-49709BD4F8EB}
+		{E788CD2D-9990-45D2-808C-8663C5BB0B6B} = {961F4EB4-D3B5-4886-9102-F55C571781B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43283760-B411-4D67-9683-4DF88B78D57D}
