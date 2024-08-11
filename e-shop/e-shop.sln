@@ -5,11 +5,13 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EC0D4238-E9EE-4F1C-B010-49709BD4F8EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog.API\Catalog.API.csproj", "{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog.API\Catalog.API.csproj", "{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{961F4EB4-D3B5-4886-9102-F55C571781B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocs", "Utils\BuildingBlocs\BuildingBlocs.csproj", "{E788CD2D-9990-45D2-808C-8663C5BB0B6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocs", "Utils\BuildingBlocs\BuildingBlocs.csproj", "{E788CD2D-9990-45D2-808C-8663C5BB0B6B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D32AA57A-75BA-4633-907C-F7E39A20D8BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{E788CD2D-9990-45D2-808C-8663C5BB0B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E788CD2D-9990-45D2-808C-8663C5BB0B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E788CD2D-9990-45D2-808C-8663C5BB0B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32AA57A-75BA-4633-907C-F7E39A20D8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32AA57A-75BA-4633-907C-F7E39A20D8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32AA57A-75BA-4633-907C-F7E39A20D8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32AA57A-75BA-4633-907C-F7E39A20D8BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

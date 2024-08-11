@@ -1,11 +1,24 @@
-﻿using MediatR;
+﻿using Catalog.API.Products.GetById;
+using Microsoft.Extensions.Logging;
 
 namespace Catalog.API.Products.Create;
 
-internal class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, CreateProductResult>
+internal class GetProductCommandHandler(IDocumentSession session) : ICommandHandler<GetProductCommand, GetProductResult>
 {
-    public Task<CreateProductResult> Handle(CreateProductCommand request, CancellationToken cancellationToken)
+    public async Task<GetProductResult> Handle(GetProductCommand command, CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+        Product product = new()
+        {
+            Name = command.Name,
+            Description = command.Description,
+            Category = command.Category,
+            ImageFile = command.ImageFile,
+            Price = command.Price
+        };
+
+        session.Store(product);
+        await session.SaveChangesAsync(cancellationToken);
+
+        return new GetProductResult(product.Id);
     }
 }
