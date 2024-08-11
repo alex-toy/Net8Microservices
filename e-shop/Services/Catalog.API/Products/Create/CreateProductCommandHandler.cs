@@ -1,11 +1,8 @@
-﻿using Catalog.API.Products.GetById;
-using Microsoft.Extensions.Logging;
+﻿namespace Catalog.API.Products.Create;
 
-namespace Catalog.API.Products.Create;
-
-internal class GetProductCommandHandler(IDocumentSession session) : ICommandHandler<GetProductCommand, GetProductResult>
+internal class CreateProductCommandHandler(IDocumentSession session) : ICommandHandler<CreateProductCommand, CreateProductResult>
 {
-    public async Task<GetProductResult> Handle(GetProductCommand command, CancellationToken cancellationToken)
+    public async Task<CreateProductResult> Handle(CreateProductCommand command, CancellationToken cancellationToken)
     {
         Product product = new()
         {
@@ -19,6 +16,6 @@ internal class GetProductCommandHandler(IDocumentSession session) : ICommandHand
         session.Store(product);
         await session.SaveChangesAsync(cancellationToken);
 
-        return new GetProductResult(product.Id);
+        return new CreateProductResult(product.Id);
     }
 }

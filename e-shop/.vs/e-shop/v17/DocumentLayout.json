@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\products\\getbycategory\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\products\\getbycategory\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\products\\delete\\deleteproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\products\\delete\\deleteproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\products\\getbycategory\\getproductbyidendoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\products\\getbycategory\\getproductbyidendoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\products\\delete\\deleteproductendoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\products\\delete\\deleteproductendoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 448,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,28 +50,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetProductByIdEndoint.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\GetByCategory\\GetProductByIdEndoint.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog.API\\Products\\GetByCategory\\GetProductByIdEndoint.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\GetByCategory\\GetProductByIdEndoint.cs",
-              "RelativeToolTip": "Services\\Catalog.API\\Products\\GetByCategory\\GetProductByIdEndoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "DocumentIndex": 0,
+              "Title": "DeleteProductQueryHandler.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\Delete\\DeleteProductQueryHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog.API\\Products\\Delete\\DeleteProductQueryHandler.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\Delete\\DeleteProductQueryHandler.cs",
+              "RelativeToolTip": "Services\\Catalog.API\\Products\\Delete\\DeleteProductQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T06:30:59.357Z",
+              "WhenOpened": "2024-08-11T14:43:14.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetProductByIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\GetByCategory\\GetProductByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog.API\\Products\\GetByCategory\\GetProductByIdQueryHandler.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\GetByCategory\\GetProductByIdQueryHandler.cs",
-              "RelativeToolTip": "Services\\Catalog.API\\Products\\GetByCategory\\GetProductByIdQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "DeleteProductEndoint.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\Delete\\DeleteProductEndoint.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog.API\\Products\\Delete\\DeleteProductEndoint.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\Delete\\DeleteProductEndoint.cs",
+              "RelativeToolTip": "Services\\Catalog.API\\Products\\Delete\\DeleteProductEndoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T06:31:03.024Z",
+              "WhenOpened": "2024-08-11T14:43:13.003Z",
               "EditorCaption": ""
             }
           ]

@@ -1,13 +1,13 @@
 ﻿namespace Catalog.API.Products.Create;
 
-public class GetProductEndoint : ICarterModule
+public class CreateProductEndoint : ICarterModule
 {
     public void AddRoutes(IEndpointRouteBuilder app)
     {
-        app.MapPost("/products", async (GetProductRequest request, ISender sender) =>
+        app.MapPost("/products", async (CreateProductRequest request, ISender sender) =>
         {
-            GetProductCommand command = request.Adapt<GetProductCommand>();
-            GetProductResult result = await sender.Send(command);
+            CreateProductCommand command = request.Adapt<CreateProductCommand>();
+            CreateProductResult result = await sender.Send(command);
             CreateProductResponse response = result.Adapt<CreateProductResponse>();
             return Results.Created($"/products/{response.Id}", response);
         })

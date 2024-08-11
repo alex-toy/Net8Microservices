@@ -9,7 +9,7 @@ internal class GetProductByCategoryQueryHandler(IDocumentSession session, ILogge
     {
         logger.LogInformation($"{nameof(GetProductByCategoryQueryHandler)}.Handle called with {query}");
 
-        Product? products = await session.LoadAsync<Product>(query.Category, cancellationToken);
+        IReadOnlyList<Product>? products = await session.Query<Product>().Where(p => p.Category.Contains(query.Category)).ToListAsync();
 
         if (products is null ) throw new ProductNotFoundException(query.Category);
 

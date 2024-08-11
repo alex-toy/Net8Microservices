@@ -1,3 +1,3 @@
 ﻿namespace Catalog.API.Products.Create;
 
-public record GetProductResult(Guid Id);
+public record CreateProductResult(Guid Id);
