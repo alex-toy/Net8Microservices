@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E788CD2D-9990-45D2-808C-8663C5BB0B6B}|Utils\\BuildingBlocs\\BuildingBlocs.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\utils\\buildingblocs\\exceptions\\handlers\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E788CD2D-9990-45D2-808C-8663C5BB0B6B}|Utils\\BuildingBlocs\\BuildingBlocs.csproj|solutionrelative:utils\\buildingblocs\\exceptions\\handlers\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\products\\update\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\products\\update\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\exceptions\\productnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\exceptions\\productnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\products\\delete\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\products\\delete\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\products\\get\\getproductendoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\products\\get\\getproductendoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 448,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,80 +46,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog.API\\GlobalUsings.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\GlobalUsings.cs",
-              "RelativeToolTip": "Services\\Catalog.API\\GlobalUsings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T07:20:54.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog.API\\Program.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Program.cs",
-              "RelativeToolTip": "Services\\Catalog.API\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Title": "GetProductEndoint.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\Get\\GetProductEndoint.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog.API\\Products\\Get\\GetProductEndoint.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\Get\\GetProductEndoint.cs",
+              "RelativeToolTip": "Services\\Catalog.API\\Products\\Get\\GetProductEndoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T07:19:51.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomExceptionHandler.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Utils\\BuildingBlocs\\Exceptions\\Handlers\\CustomExceptionHandler.cs",
-              "RelativeDocumentMoniker": "Utils\\BuildingBlocs\\Exceptions\\Handlers\\CustomExceptionHandler.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Utils\\BuildingBlocs\\Exceptions\\Handlers\\CustomExceptionHandler.cs",
-              "RelativeToolTip": "Utils\\BuildingBlocs\\Exceptions\\Handlers\\CustomExceptionHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T07:08:58.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\Update\\UpdateProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog.API\\Products\\Update\\UpdateProductCommandHandler.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\Update\\UpdateProductCommandHandler.cs",
-              "RelativeToolTip": "Services\\Catalog.API\\Products\\Update\\UpdateProductCommandHandler.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T07:03:12.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeleteProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\Delete\\DeleteProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog.API\\Products\\Delete\\DeleteProductCommandHandler.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\Delete\\DeleteProductCommandHandler.cs",
-              "RelativeToolTip": "Services\\Catalog.API\\Products\\Delete\\DeleteProductCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T07:02:29.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductNotFoundException.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Exceptions\\ProductNotFoundException.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog.API\\Exceptions\\ProductNotFoundException.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Exceptions\\ProductNotFoundException.cs",
-              "RelativeToolTip": "Services\\Catalog.API\\Exceptions\\ProductNotFoundException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T06:59:03.624Z",
+              "WhenOpened": "2024-08-12T12:24:43.95Z",
               "EditorCaption": ""
             }
           ]

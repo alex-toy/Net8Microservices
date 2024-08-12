@@ -1,12 +1,17 @@
-﻿namespace Catalog.API.Products.Get;
+﻿using Catalog.API.Products.Create;
+using MediatR;
+
+namespace Catalog.API.Products.Get;
 
 public class GetProductEndoint : ICarterModule
 {
     public void AddRoutes(IEndpointRouteBuilder app)
     {
-        app.MapGet("/products", async (ISender sender) =>
+        app.MapGet("/products", async([AsParameters] GetProductRequest request, ISender sender) =>
         {
-            GetProductsResult result = await sender.Send(new GetProductsQuery());
+            GetProductsQuery query = request.Adapt<GetProductsQuery>();
+
+            GetProductsResult result = await sender.Send(query);
 
             GetProductsResponse response = result.Adapt<GetProductsResponse>();
 

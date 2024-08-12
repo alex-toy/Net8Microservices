@@ -1,4 +1,3 @@
-using BuildingBlocs.Exceptions.Handlers;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +9,7 @@ builder.Services.AddMediatR(config =>
 {
     config.RegisterServicesFromAssembly(assembly);
     config.AddOpenBehavior(typeof(Validator<,>));
+    config.AddOpenBehavior(typeof(Logger<,>));
 });
 
 builder.Services.AddValidatorsFromAssembly(assembly);
@@ -22,6 +22,8 @@ builder.Services.AddMarten(options =>
     options.Connection(connectionString);
 })
 .UseLightweightSessions();
+
+if (builder.Environment.IsDevelopment()) builder.Services.InitializeMartenWith<CatalogDataSeed>();
 
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();
 

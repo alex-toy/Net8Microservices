@@ -7,3 +7,4 @@ global using MediatR;
 global using FluentValidation;
 global using BuildingBlocs.Behaviors;
 global using BuildingBlocs.Exceptions.Handlers;
+global using Catalog.API.Data;

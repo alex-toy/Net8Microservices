@@ -1,3 +1,3 @@
 ﻿namespace Catalog.API.Products.Get;
 
-public record GetProductsQuery() : IQuery<GetProductsResult>;
+public record GetProductsQuery(int PageNumber, int PageSize) : IQuery<GetProductsResult>;
