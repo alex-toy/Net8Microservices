@@ -4,7 +4,7 @@ public class DeleteProductEndoint : ICarterModule
 {
     public void AddRoutes(IEndpointRouteBuilder app)
     {
-        app.MapGet("/products/{id}", async (Guid id, ISender sender) =>
+        app.MapDelete("/products/{id}", async (Guid id, ISender sender) =>
         {
             try
             {

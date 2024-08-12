@@ -1,9 +1,12 @@
 ﻿namespace Catalog.API.Products.Create;
 
-internal class CreateProductCommandHandler(IDocumentSession session) : ICommandHandler<CreateProductCommand, CreateProductResult>
+internal class CreateProductCommandHandler(IDocumentSession session, ILogger<UpdateProductCommandHandler> logger) 
+    : ICommandHandler<CreateProductCommand, CreateProductResult>
 {
     public async Task<CreateProductResult> Handle(CreateProductCommand command, CancellationToken cancellationToken)
     {
+        logger.LogInformation($"{nameof(CreateProductCommandHandler)} called with {command}");
+
         Product product = new()
         {
             Name = command.Name,
