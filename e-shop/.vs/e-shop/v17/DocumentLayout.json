@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\catalog.api\\products\\get\\getproductendoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E23BAAB-5F1F-481B-B075-D0EF40F01CF0}|Services\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog.api\\products\\get\\getproductendoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -47,6 +51,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog.API\\Program.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Program.cs",
+              "RelativeToolTip": "Services\\Catalog.API\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAACsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T15:42:56.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GetProductEndoint.cs",
               "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Catalog.API\\Products\\Get\\GetProductEndoint.cs",
               "RelativeDocumentMoniker": "Services\\Catalog.API\\Products\\Get\\GetProductEndoint.cs",
