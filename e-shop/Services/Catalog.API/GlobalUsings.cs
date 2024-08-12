@@ -5,3 +5,5 @@ global using Mapster;
 global using Marten;
 global using MediatR;
 global using FluentValidation;
+global using BuildingBlocs.Behaviors;
+global using BuildingBlocs.Exceptions.Handlers;
