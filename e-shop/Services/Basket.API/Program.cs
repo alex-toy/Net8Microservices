@@ -5,7 +5,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 Assembly assembly = typeof(Program).Assembly;
+
 builder.Services.AddCarter();
+
 builder.Services.AddMediatR(config =>
 {
     config.RegisterServicesFromAssembly(assembly);
@@ -13,15 +15,20 @@ builder.Services.AddMediatR(config =>
     config.AddOpenBehavior(typeof(Logger<,>));
 });
 
-//builder.Services.AddMarten(opts =>
-//{
-//    opts.Connection(builder.Configuration.GetConnectionString("Database")!);
-//    opts.Schema.For<ShoppingCart>().Identity(x => x.UserName);
-//}).UseLightweightSessions();
+builder.Services.AddValidatorsFromAssembly(assembly);
+
+builder.Services.AddMarten(options =>
+{
+    string connectionString = builder.Configuration.GetConnectionString("Database")!;
+    options.Connection(connectionString);
+    options.Schema.For<ShoppingCart>().Identity(x => x.UserName);
+}).UseLightweightSessions();
+
+builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+
 
 
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline.
 app.MapCarter();
