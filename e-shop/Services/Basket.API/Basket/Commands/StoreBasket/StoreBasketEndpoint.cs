@@ -1,6 +1,4 @@
-﻿using Basket.API.Basket.Commands.StoreBasket;
-
-namespace Basket.API.Basket.Queries.StoreBasket;
+﻿namespace Basket.API.Basket.Commands.StoreBasket;
 
 public class StoreBasketEndpoint : ICarterModule
 {

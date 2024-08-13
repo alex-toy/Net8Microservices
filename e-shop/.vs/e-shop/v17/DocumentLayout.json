@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\basket.api\\basket\\commands\\storebasket\\storebasketquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket\\commands\\storebasket\\storebasketquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\basket.api\\basket\\commands\\deletebasket\\deletebasketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket\\commands\\deletebasket\\deletebasketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\basket.api\\basket\\commands\\storebasket\\storebasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket\\commands\\storebasket\\storebasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\basket.api\\basket\\commands\\storebasket\\getbasketqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket\\commands\\storebasket\\getbasketqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\basket.api\\basket\\commands\\storebasket\\storebasketendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket\\commands\\storebasket\\storebasketendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\basket.api\\basket\\commands\\storebasket\\getbasketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket\\commands\\storebasket\\getbasketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\basket.api\\basket\\commands\\deletebasket\\deletebasketendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\basket\\commands\\deletebasket\\deletebasketendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 448,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StoreBasketCommand.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketCommand.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketCommand.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketCommand.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T06:10:15.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetBasketQueryHandler.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\StoreBasket\\GetBasketQueryHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket\\Commands\\StoreBasket\\GetBasketQueryHandler.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\StoreBasket\\GetBasketQueryHandler.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Basket\\Commands\\StoreBasket\\GetBasketQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T06:06:25.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetBasketResponse.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\StoreBasket\\GetBasketResponse.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket\\Commands\\StoreBasket\\GetBasketResponse.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\StoreBasket\\GetBasketResponse.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Basket\\Commands\\StoreBasket\\GetBasketResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T06:06:26.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StoreBasketQuery.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketQuery.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketQuery.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketQuery.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Title": "DeleteBasketResponse.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\DeleteBasket\\DeleteBasketResponse.cs",
+              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket\\Commands\\DeleteBasket\\DeleteBasketResponse.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\DeleteBasket\\DeleteBasketResponse.cs*",
+              "RelativeToolTip": "Services\\Basket.API\\Basket\\Commands\\DeleteBasket\\DeleteBasketResponse.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T06:06:24.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StoreBasketEndpoint.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketEndpoint.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketEndpoint.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketEndpoint.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Basket\\Commands\\StoreBasket\\StoreBasketEndpoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T06:06:23.629Z",
+              "WhenOpened": "2024-08-13T06:43:42.561Z",
               "EditorCaption": ""
             },
             {
@@ -124,6 +60,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteBasketEndpoint.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\DeleteBasket\\DeleteBasketEndpoint.cs",
+              "RelativeDocumentMoniker": "Services\\Basket.API\\Basket\\Commands\\DeleteBasket\\DeleteBasketEndpoint.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Basket\\Commands\\DeleteBasket\\DeleteBasketEndpoint.cs*",
+              "RelativeToolTip": "Services\\Basket.API\\Basket\\Commands\\DeleteBasket\\DeleteBasketEndpoint.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T06:39:32.668Z",
+              "EditorCaption": ""
             }
           ]
         },

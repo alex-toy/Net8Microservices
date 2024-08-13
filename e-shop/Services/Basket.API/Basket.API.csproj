@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Basket\Commands\DeleteBasket\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Utils\BuildingBlocs\BuildingBlocs.csproj" />
   </ItemGroup>
 

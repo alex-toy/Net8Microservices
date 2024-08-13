@@ -1,3 +1,3 @@
-﻿namespace Basket.API.Basket.Queries.StoreBasket;
+﻿namespace Basket.API.Basket.Commands.StoreBasket;
 
 public record StoreBasketResponse(string UserName);
