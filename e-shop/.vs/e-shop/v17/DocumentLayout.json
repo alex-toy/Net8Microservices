@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\basket.api\\data\\cachedbasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\data\\cachedbasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32AA57A-75BA-4633-907C-F7E39A20D8BD}|docker-compose.dcproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D32AA57A-75BA-4633-907C-F7E39A20D8BD}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 448,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,32 +38,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CachedBasketRepository.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Data\\CachedBasketRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Data\\CachedBasketRepository.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Data\\CachedBasketRepository.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Data\\CachedBasketRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T08:34:29.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-08-14T09:56:38.598Z",
-              "EditorCaption": ""
             }
           ]
         },
