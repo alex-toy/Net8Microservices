@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D32AA57A-75BA-4633-907C-F7E39A20D8BD}|docker-compose.dcproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D32AA57A-75BA-4633-907C-F7E39A20D8BD}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{582550BF-B451-4AFC-A340-51E6B730B455}|Services\\Orderings\\Ordering.Api\\Ordering.Api.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\orderings\\ordering.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582550BF-B451-4AFC-A340-51E6B730B455}|Services\\Orderings\\Ordering.Api\\Ordering.Api.csproj|solutionrelative:services\\orderings\\ordering.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,14 +47,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "docker-compose.override.yml",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\docker-compose.override.yml",
-              "RelativeDocumentMoniker": "docker-compose.override.yml",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\docker-compose.override.yml",
-              "RelativeToolTip": "docker-compose.override.yml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEcAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-08-23T08:47:01.671Z",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Api\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Services\\Orderings\\Ordering.Api\\DependencyInjection.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Api\\DependencyInjection.cs",
+              "RelativeToolTip": "Services\\Orderings\\Ordering.Api\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T11:53:57.267Z",
               "EditorCaption": ""
             }
           ]

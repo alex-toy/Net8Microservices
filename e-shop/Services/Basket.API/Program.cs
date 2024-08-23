@@ -1,42 +1,26 @@
-using BuildingBlocs.Behaviors;
+using Basket.API;
 using BuildingBlocs.Exceptions.Handlers;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using System.Reflection;
 
-var builder = WebApplication.CreateBuilder(args);
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 Assembly assembly = typeof(Program).Assembly;
 
 builder.Services.AddCarter();
 
-builder.Services.AddMediatR(config =>
-{
-    config.RegisterServicesFromAssembly(assembly);
-    config.AddOpenBehavior(typeof(Validator<,>));
-    config.AddOpenBehavior(typeof(Logger<,>));
-});
+builder.ConfigureMediatR(assembly);
 
 builder.Services.AddValidatorsFromAssembly(assembly);
 
 string postgresStringConnection = builder.Configuration.GetConnectionString("Database")!;
+builder.ConfigureMarten(postgresStringConnection);
+
+builder.ConfigureRepos();
+
 string redisStringConnection = builder.Configuration.GetConnectionString("Redis")!;
-
-builder.Services.AddMarten(options =>
-{
-    options.Connection(postgresStringConnection);
-    options.Schema.For<ShoppingCart>().Identity(x => x.UserName);
-}).UseLightweightSessions();
-
-builder.Services.AddScoped<IBasketRepository, BasketRepository>();
-builder.Services.Decorate<IBasketRepository, CachedBasketRepository>();
-
-builder.Services.AddStackExchangeRedisCache(options =>
-{
-    options.Configuration = redisStringConnection;
-    //options.InstanceName = "Basket";
-});
+builder.ConfigureRedis(redisStringConnection);
 
 builder.Services.AddHealthChecks()
     .AddNpgSql(postgresStringConnection)
