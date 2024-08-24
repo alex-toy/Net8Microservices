@@ -23,9 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Api", "Services\Or
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "Services\Orderings\Ordering.Domain\Ordering.Domain.csproj", "{67889EFE-1757-4625-B7A9-888E32B46D8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Orderings\Ordering.Application\Ordering.Application.csproj", "{56D6FAD7-F524-4130-B4C1-D056BAE3E221}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "Services\Orderings\Ordering.Application\Ordering.Application.csproj", "{56D6FAD7-F524-4130-B4C1-D056BAE3E221}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Orderings\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{DC2A181E-45DE-4A97-9337-108617EAB62A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "Services\Orderings\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{DC2A181E-45DE-4A97-9337-108617EAB62A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\basket.api\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67889EFE-1757-4625-B7A9-888E32B46D8D}|Services\\Orderings\\Ordering.Domain\\Ordering.Domain.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\orderings\\ordering.domain\\abstractions\\aggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67889EFE-1757-4625-B7A9-888E32B46D8D}|Services\\Orderings\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:services\\orderings\\ordering.domain\\abstractions\\aggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\basket.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B4542-AE78-47E2-B069-8806B511332C}|Services\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67889EFE-1757-4625-B7A9-888E32B46D8D}|Services\\Orderings\\Ordering.Domain\\Ordering.Domain.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\orderings\\ordering.domain\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67889EFE-1757-4625-B7A9-888E32B46D8D}|Services\\Orderings\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:services\\orderings\\ordering.domain\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67889EFE-1757-4625-B7A9-888E32B46D8D}|Services\\Orderings\\Ordering.Domain\\Ordering.Domain.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\orderings\\ordering.domain\\abstractions\\iaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67889EFE-1757-4625-B7A9-888E32B46D8D}|Services\\Orderings\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:services\\orderings\\ordering.domain\\abstractions\\iaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67889EFE-1757-4625-B7A9-888E32B46D8D}|Services\\Orderings\\Ordering.Domain\\Ordering.Domain.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\orderings\\ordering.domain\\abstractions\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67889EFE-1757-4625-B7A9-888E32B46D8D}|Services\\Orderings\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:services\\orderings\\ordering.domain\\abstractions\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67889EFE-1757-4625-B7A9-888E32B46D8D}|Services\\Orderings\\Ordering.Domain\\Ordering.Domain.csproj|c:\\source\\csharpmicroservices\\net8microservices\\e-shop\\services\\orderings\\ordering.domain\\abstractions\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67889EFE-1757-4625-B7A9-888E32B46D8D}|Services\\Orderings\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:services\\orderings\\ordering.domain\\abstractions\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 448,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,28 +62,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WebApplicationBuilderExtensions.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\WebApplicationBuilderExtensions.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\WebApplicationBuilderExtensions.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\WebApplicationBuilderExtensions.cs",
-              "RelativeToolTip": "Services\\Basket.API\\WebApplicationBuilderExtensions.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAA3wCwAAAAbAAAA",
+              "DocumentIndex": 4,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Domain\\Abstractions\\IEntity.cs",
+              "RelativeDocumentMoniker": "Services\\Orderings\\Ordering.Domain\\Abstractions\\IEntity.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Domain\\Abstractions\\IEntity.cs",
+              "RelativeToolTip": "Services\\Orderings\\Ordering.Domain\\Abstractions\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T18:08:54.346Z",
+              "WhenOpened": "2024-08-24T05:35:18.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDomainEvent.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Domain\\Abstractions\\IDomainEvent.cs",
+              "RelativeDocumentMoniker": "Services\\Orderings\\Ordering.Domain\\Abstractions\\IDomainEvent.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Domain\\Abstractions\\IDomainEvent.cs",
+              "RelativeToolTip": "Services\\Orderings\\Ordering.Domain\\Abstractions\\IDomainEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T05:35:17.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAggregate.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Domain\\Abstractions\\IAggregate.cs",
+              "RelativeDocumentMoniker": "Services\\Orderings\\Ordering.Domain\\Abstractions\\IAggregate.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Domain\\Abstractions\\IAggregate.cs",
+              "RelativeToolTip": "Services\\Orderings\\Ordering.Domain\\Abstractions\\IAggregate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T05:35:17.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\Basket.API\\Program.cs",
-              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Basket.API\\Program.cs",
-              "RelativeToolTip": "Services\\Basket.API\\Program.cs",
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Domain\\Abstractions\\Entity.cs",
+              "RelativeDocumentMoniker": "Services\\Orderings\\Ordering.Domain\\Abstractions\\Entity.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Domain\\Abstractions\\Entity.cs",
+              "RelativeToolTip": "Services\\Orderings\\Ordering.Domain\\Abstractions\\Entity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T18:08:51.178Z",
+              "WhenOpened": "2024-08-24T05:35:16.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Aggregate.cs",
+              "DocumentMoniker": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Domain\\Abstractions\\Aggregate.cs",
+              "RelativeDocumentMoniker": "Services\\Orderings\\Ordering.Domain\\Abstractions\\Aggregate.cs",
+              "ToolTip": "C:\\source\\CsharpMicroservices\\Net8Microservices\\e-shop\\Services\\Orderings\\Ordering.Domain\\Abstractions\\Aggregate.cs",
+              "RelativeToolTip": "Services\\Orderings\\Ordering.Domain\\Abstractions\\Aggregate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T05:35:15.373Z",
               "EditorCaption": ""
             }
           ]
