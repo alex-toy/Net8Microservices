@@ -1,9 +1,11 @@
-﻿
+﻿using Ordering.Domain.ValueObjects.TypeIds;
+
 namespace Ordering.Domain.Abstractions;
-public abstract class Aggregate<TId> : Entity<TId>, IAggregate<TId>
+
+public abstract class Aggregate<TId> : Entity<TId>, IAggregate<TId> where TId : TypeId
 {
-    private readonly List<IDomainEvent> _domainEvents = new();
     public IReadOnlyList<IDomainEvent> DomainEvents => _domainEvents.AsReadOnly();
+    private readonly List<IDomainEvent> _domainEvents = new();
 
     public void AddDomainEvent(IDomainEvent domainEvent)
     {

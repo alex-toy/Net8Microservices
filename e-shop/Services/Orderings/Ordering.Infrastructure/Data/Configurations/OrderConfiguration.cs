@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Ordering.Domain.Enums;
 using Ordering.Domain.Models;
-using Ordering.Domain.ValueObjects;
 
 namespace Ordering.Infrastructure.Data.Configurations;
 public class OrderConfiguration : IEntityTypeConfiguration<Order>
@@ -11,9 +10,7 @@ public class OrderConfiguration : IEntityTypeConfiguration<Order>
     {
         orderType.HasKey(o => o.Id);
 
-        orderType.Property(o => o.Id).HasConversion(
-                        orderId => orderId.Value,
-                        dbId => OrderId.Of(dbId));
+        orderType.Property(o => o.Id).HasConversion(orderId => orderId.Value, dbId => new(dbId));
 
         orderType.HasOne<Customer>()
           .WithMany()

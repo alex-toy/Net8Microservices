@@ -1,4 +1,4 @@
-﻿namespace Ordering.Domain.ValueObjects;
+﻿namespace Ordering.Domain.ValueObjects.TypeIds;
 public record OrderItemId
 {
     public Guid Value { get; }

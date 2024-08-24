@@ -1,13 +1,16 @@
-﻿namespace Ordering.Domain.Models;
+﻿using Ordering.Domain.ValueObjects.Customers;
+using Ordering.Domain.ValueObjects.TypeIds;
+
+namespace Ordering.Domain.Models;
+
 public class Customer : Entity<CustomerId>
 {
     public string Name { get; private set; } = default!;
     public string Email { get; private set; } = default!;
 
-    public static Customer Create(CustomerId id, string name, string email)
+    public static Customer Create(CustomerId id, string name, Email email)
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(name);
-        ArgumentException.ThrowIfNullOrWhiteSpace(email);
 
         var customer = new Customer
         {

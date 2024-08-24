@@ -1,4 +1,7 @@
-﻿namespace Ordering.Domain.ValueObjects;
+﻿using Ordering.Domain.ValueObjects.TypeIds;
+
+namespace Ordering.Domain.ValueObjects.Orders;
+
 public record Address
 {
     public string FirstName { get; } = default!;
